@@ -1,0 +1,22 @@
+.DS_Store
+
+ml/train_yolo.py
+ml/train_xray.py
+
+__pycache__/
+
+# Frontend
+
+frontend/node_modules/
+
+# Dataset
+
+data
+filtered
+
+ddh_yolo_d1/
+
+backend/overlays/
+
+venv/
+.venv/

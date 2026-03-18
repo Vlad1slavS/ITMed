@@ -1,0 +1,22 @@
+{
+  "model_name": "efficientnet_b3",
+  "img_size": 384,
+  "threshold": 0.4,
+  "classes": [
+    "normal",
+    "pathology"
+  ],
+  "val_auc": 0.989984075098483,
+  "test_auc": 0.9879725085910653,
+  "test_f1": 0.943089430894309,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ]
+}
