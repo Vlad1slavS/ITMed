@@ -5,6 +5,8 @@ ml/train_xray.py
 
 __pycache__/
 
+.idea/
+
 # Frontend
 
 frontend/node_modules/
