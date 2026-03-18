@@ -5,9 +5,12 @@ services:
     image: python:3.11-slim
     working_dir: /app
     command: >
-      bash -c "
-      pip install -r requirements.txt &&
-      pip uninstall -y opencv-python &&
+      sh -c "
+      apt-get update &&
+      apt-get install -y --no-install-recommends libxcb1 libglib2.0-0 libgl1 &&
+      python -m pip install --no-cache-dir -r requirements.txt &&
+      python -m pip uninstall -y opencv-python opencv-python-headless &&
+      python -m pip install --no-cache-dir opencv-python-headless==4.11.0.86 &&
       uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
       "
     volumes:
