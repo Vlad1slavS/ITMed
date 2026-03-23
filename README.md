@@ -198,3 +198,13 @@ class MyAnalyzer(BaseAnalyzer):
 - Node.js 20+ (для фронтенда)
 - Docker и Docker Compose (для БД)
 - PostgreSQL 16
+
+## Demo
+
+![Photo 1](https://github.com/Vlad1slavS/ITMed/blob/main/pictures/1.png)
+
+
+![Photo 2](https://github.com/Vlad1slavS/ITMed/blob/main/pictures/2.png)
+
+
+![Photo 3](https://github.com/Vlad1slavS/ITMed/blob/main/pictures/3.png)
